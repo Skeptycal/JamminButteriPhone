@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE06F0E416912FDB00384319 /* bnicon copy.png in Resources */ = {isa = PBXBuildFile; fileRef = BE06F0E316912FDB00384319 /* bnicon copy.png */; };
+		BE06F0E616912FE200384319 /* bnicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE06F0E516912FE200384319 /* bnicon.png */; };
 		BE0CFA111687614B003A9A42 /* ProductListFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0CFA101687614B003A9A42 /* ProductListFlowLayout.m */; };
+		BE0CFA14168781A2003A9A42 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0CFA13168781A2003A9A42 /* QuartzCore.framework */; };
 		BE94E4B61676AE4C00F0197C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE94E4B51676AE4C00F0197C /* UIKit.framework */; };
 		BE94E4B81676AE4C00F0197C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE94E4B71676AE4C00F0197C /* Foundation.framework */; };
 		BE94E4BA1676AE4C00F0197C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE94E4B91676AE4C00F0197C /* CoreGraphics.framework */; };
@@ -32,19 +35,37 @@
 		BE96F7521683F34B0080C42A /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE96F7471683F34B0080C42A /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BE96F7531683F34B0080C42A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE96F7491683F34B0080C42A /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BE96F7571683F3B00080C42A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BE96F7561683F3B00080C42A /* Constants.m */; };
+		BEDCC67D16A1DE5F0023B015 /* PSTCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC66516A1DE5F0023B015 /* PSTCollectionView.m */; };
+		BEDCC67E16A1DE5F0023B015 /* PSTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC66716A1DE5F0023B015 /* PSTCollectionViewCell.m */; };
+		BEDCC67F16A1DE5F0023B015 /* PSTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC66A16A1DE5F0023B015 /* PSTCollectionViewController.m */; };
+		BEDCC68016A1DE5F0023B015 /* PSTCollectionViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC66C16A1DE5F0023B015 /* PSTCollectionViewData.m */; };
+		BEDCC68116A1DE5F0023B015 /* PSTCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC66E16A1DE5F0023B015 /* PSTCollectionViewFlowLayout.m */; };
+		BEDCC68216A1DE5F0023B015 /* PSTCollectionViewItemKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC67016A1DE5F0023B015 /* PSTCollectionViewItemKey.m */; };
+		BEDCC68316A1DE5F0023B015 /* PSTCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC67216A1DE5F0023B015 /* PSTCollectionViewLayout.m */; };
+		BEDCC68416A1DE5F0023B015 /* PSTCollectionViewUpdateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC67416A1DE5F0023B015 /* PSTCollectionViewUpdateItem.m */; };
+		BEDCC68516A1DE5F0023B015 /* PSTGridLayoutInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC67616A1DE5F0023B015 /* PSTGridLayoutInfo.m */; };
+		BEDCC68616A1DE5F0023B015 /* PSTGridLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC67816A1DE5F0023B015 /* PSTGridLayoutItem.m */; };
+		BEDCC68716A1DE5F0023B015 /* PSTGridLayoutRow.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC67A16A1DE5F0023B015 /* PSTGridLayoutRow.m */; };
+		BEDCC68816A1DE5F0023B015 /* PSTGridLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCC67C16A1DE5F0023B015 /* PSTGridLayoutSection.m */; };
+		BEDCC68A16A1DF600023B015 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ADCCD16A1DB45000F3131 /* DejalActivityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE06F0E316912FDB00384319 /* bnicon copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bnicon copy.png"; path = "../bnicon copy.png"; sourceTree = "<group>"; };
+		BE06F0E516912FE200384319 /* bnicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bnicon.png; path = ../bnicon.png; sourceTree = "<group>"; };
+		BE0ADCCC16A1DB45000F3131 /* DejalActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		BE0ADCCD16A1DB45000F3131 /* DejalActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		BE0CFA0F1687614B003A9A42 /* ProductListFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListFlowLayout.h; sourceTree = "<group>"; };
 		BE0CFA101687614B003A9A42 /* ProductListFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListFlowLayout.m; sourceTree = "<group>"; };
-		BE94E4B11676AE4C00F0197C /* JamminButter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JamminButter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0CFA13168781A2003A9A42 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE94E4B11676AE4C00F0197C /* HoboNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoboNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE94E4B51676AE4C00F0197C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BE94E4B71676AE4C00F0197C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE94E4B91676AE4C00F0197C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BE94E4BD1676AE4C00F0197C /* JamminButter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JamminButter-Info.plist"; sourceTree = "<group>"; };
+		BE94E4BD1676AE4C00F0197C /* HoboNinja-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoboNinja-Info.plist"; sourceTree = "<group>"; };
 		BE94E4BF1676AE4C00F0197C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE94E4C11676AE4C00F0197C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BE94E4C31676AE4C00F0197C /* JamminButter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JamminButter-Prefix.pch"; sourceTree = "<group>"; };
+		BE94E4C31676AE4C00F0197C /* HoboNinja-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoboNinja-Prefix.pch"; sourceTree = "<group>"; };
 		BE94E4C41676AE4C00F0197C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE94E4C51676AE4C00F0197C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BE94E4C71676AE4C00F0197C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -80,6 +101,31 @@
 		BE96F7491683F34B0080C42A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		BE96F7551683F3B00080C42A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		BE96F7561683F3B00080C42A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		BEDCC66416A1DE5F0023B015 /* PSTCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionView.h; sourceTree = "<group>"; };
+		BEDCC66516A1DE5F0023B015 /* PSTCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionView.m; sourceTree = "<group>"; };
+		BEDCC66616A1DE5F0023B015 /* PSTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewCell.h; sourceTree = "<group>"; };
+		BEDCC66716A1DE5F0023B015 /* PSTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewCell.m; sourceTree = "<group>"; };
+		BEDCC66816A1DE5F0023B015 /* PSTCollectionViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewCommon.h; sourceTree = "<group>"; };
+		BEDCC66916A1DE5F0023B015 /* PSTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewController.h; sourceTree = "<group>"; };
+		BEDCC66A16A1DE5F0023B015 /* PSTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewController.m; sourceTree = "<group>"; };
+		BEDCC66B16A1DE5F0023B015 /* PSTCollectionViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewData.h; sourceTree = "<group>"; };
+		BEDCC66C16A1DE5F0023B015 /* PSTCollectionViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewData.m; sourceTree = "<group>"; };
+		BEDCC66D16A1DE5F0023B015 /* PSTCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		BEDCC66E16A1DE5F0023B015 /* PSTCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		BEDCC66F16A1DE5F0023B015 /* PSTCollectionViewItemKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewItemKey.h; sourceTree = "<group>"; };
+		BEDCC67016A1DE5F0023B015 /* PSTCollectionViewItemKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewItemKey.m; sourceTree = "<group>"; };
+		BEDCC67116A1DE5F0023B015 /* PSTCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewLayout.h; sourceTree = "<group>"; };
+		BEDCC67216A1DE5F0023B015 /* PSTCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewLayout.m; sourceTree = "<group>"; };
+		BEDCC67316A1DE5F0023B015 /* PSTCollectionViewUpdateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewUpdateItem.h; sourceTree = "<group>"; };
+		BEDCC67416A1DE5F0023B015 /* PSTCollectionViewUpdateItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewUpdateItem.m; sourceTree = "<group>"; };
+		BEDCC67516A1DE5F0023B015 /* PSTGridLayoutInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutInfo.h; sourceTree = "<group>"; };
+		BEDCC67616A1DE5F0023B015 /* PSTGridLayoutInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutInfo.m; sourceTree = "<group>"; };
+		BEDCC67716A1DE5F0023B015 /* PSTGridLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutItem.h; sourceTree = "<group>"; };
+		BEDCC67816A1DE5F0023B015 /* PSTGridLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutItem.m; sourceTree = "<group>"; };
+		BEDCC67916A1DE5F0023B015 /* PSTGridLayoutRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutRow.h; sourceTree = "<group>"; };
+		BEDCC67A16A1DE5F0023B015 /* PSTGridLayoutRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutRow.m; sourceTree = "<group>"; };
+		BEDCC67B16A1DE5F0023B015 /* PSTGridLayoutSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutSection.h; sourceTree = "<group>"; };
+		BEDCC67C16A1DE5F0023B015 /* PSTGridLayoutSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutSection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0CFA14168781A2003A9A42 /* QuartzCore.framework in Frameworks */,
 				BE94E4B61676AE4C00F0197C /* UIKit.framework in Frameworks */,
 				BE94E4B81676AE4C00F0197C /* Foundation.framework in Frameworks */,
 				BE94E4BA1676AE4C00F0197C /* CoreGraphics.framework in Frameworks */,
@@ -96,10 +143,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE06F0E71691300600384319 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BE06F0E516912FE200384319 /* bnicon.png */,
+				BE06F0E316912FDB00384319 /* bnicon copy.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		BE0ADCCF16A1DB49000F3131 /* DejalActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				BE0ADCCC16A1DB45000F3131 /* DejalActivityView.h */,
+				BE0ADCCD16A1DB45000F3131 /* DejalActivityView.m */,
+			);
+			name = DejalActivityView;
+			sourceTree = "<group>";
+		};
 		BE94E4A61676AE4B00F0197C = {
 			isa = PBXGroup;
 			children = (
-				BE94E4BB1676AE4C00F0197C /* JamminButter */,
+				BE94E4BB1676AE4C00F0197C /* HoboNinja */,
 				BE94E4B41676AE4C00F0197C /* Frameworks */,
 				BE94E4B21676AE4C00F0197C /* Products */,
 			);
@@ -108,7 +173,7 @@
 		BE94E4B21676AE4C00F0197C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE94E4B11676AE4C00F0197C /* JamminButter.app */,
+				BE94E4B11676AE4C00F0197C /* HoboNinja.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +181,9 @@
 		BE94E4B41676AE4C00F0197C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEDCC66316A1DE5F0023B015 /* PSTCollectionView */,
+				BE0ADCCF16A1DB49000F3131 /* DejalActivityView */,
+				BE0CFA13168781A2003A9A42 /* QuartzCore.framework */,
 				BE96F7341683F34B0080C42A /* AFNetworking */,
 				BE94E4B51676AE4C00F0197C /* UIKit.framework */,
 				BE94E4B71676AE4C00F0197C /* Foundation.framework */,
@@ -124,13 +192,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE94E4BB1676AE4C00F0197C /* JamminButter */ = {
+		BE94E4BB1676AE4C00F0197C /* HoboNinja */ = {
 			isa = PBXGroup;
 			children = (
 				BE94E4C41676AE4C00F0197C /* AppDelegate.h */,
 				BE94E4C51676AE4C00F0197C /* AppDelegate.m */,
 				BE96F7551683F3B00080C42A /* Constants.h */,
 				BE96F7561683F3B00080C42A /* Constants.m */,
+				BE06F0E71691300600384319 /* Icons */,
 				BE94E4CD1676AE4C00F0197C /* MainStoryboard.storyboard */,
 				BE94E4DE1676C58300F0197C /* ProductCollectionViewCell.h */,
 				BE94E4DF1676C58300F0197C /* ProductCollectionViewCell.m */,
@@ -142,16 +211,17 @@
 				BE94E4D91676AE8600F0197C /* ProductListViewController.m */,
 				BE94E4BC1676AE4C00F0197C /* Supporting Files */,
 			);
+			name = HoboNinja;
 			path = JamminButter;
 			sourceTree = "<group>";
 		};
 		BE94E4BC1676AE4C00F0197C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE94E4BD1676AE4C00F0197C /* JamminButter-Info.plist */,
+				BE94E4BD1676AE4C00F0197C /* HoboNinja-Info.plist */,
 				BE94E4BE1676AE4C00F0197C /* InfoPlist.strings */,
 				BE94E4C11676AE4C00F0197C /* main.m */,
-				BE94E4C31676AE4C00F0197C /* JamminButter-Prefix.pch */,
+				BE94E4C31676AE4C00F0197C /* HoboNinja-Prefix.pch */,
 				BE94E4C71676AE4C00F0197C /* Default.png */,
 				BE94E4C91676AE4C00F0197C /* Default@2x.png */,
 				BE94E4CB1676AE4C00F0197C /* Default-568h@2x.png */,
@@ -187,12 +257,44 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		BEDCC66316A1DE5F0023B015 /* PSTCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BEDCC66416A1DE5F0023B015 /* PSTCollectionView.h */,
+				BEDCC66516A1DE5F0023B015 /* PSTCollectionView.m */,
+				BEDCC66616A1DE5F0023B015 /* PSTCollectionViewCell.h */,
+				BEDCC66716A1DE5F0023B015 /* PSTCollectionViewCell.m */,
+				BEDCC66816A1DE5F0023B015 /* PSTCollectionViewCommon.h */,
+				BEDCC66916A1DE5F0023B015 /* PSTCollectionViewController.h */,
+				BEDCC66A16A1DE5F0023B015 /* PSTCollectionViewController.m */,
+				BEDCC66B16A1DE5F0023B015 /* PSTCollectionViewData.h */,
+				BEDCC66C16A1DE5F0023B015 /* PSTCollectionViewData.m */,
+				BEDCC66D16A1DE5F0023B015 /* PSTCollectionViewFlowLayout.h */,
+				BEDCC66E16A1DE5F0023B015 /* PSTCollectionViewFlowLayout.m */,
+				BEDCC66F16A1DE5F0023B015 /* PSTCollectionViewItemKey.h */,
+				BEDCC67016A1DE5F0023B015 /* PSTCollectionViewItemKey.m */,
+				BEDCC67116A1DE5F0023B015 /* PSTCollectionViewLayout.h */,
+				BEDCC67216A1DE5F0023B015 /* PSTCollectionViewLayout.m */,
+				BEDCC67316A1DE5F0023B015 /* PSTCollectionViewUpdateItem.h */,
+				BEDCC67416A1DE5F0023B015 /* PSTCollectionViewUpdateItem.m */,
+				BEDCC67516A1DE5F0023B015 /* PSTGridLayoutInfo.h */,
+				BEDCC67616A1DE5F0023B015 /* PSTGridLayoutInfo.m */,
+				BEDCC67716A1DE5F0023B015 /* PSTGridLayoutItem.h */,
+				BEDCC67816A1DE5F0023B015 /* PSTGridLayoutItem.m */,
+				BEDCC67916A1DE5F0023B015 /* PSTGridLayoutRow.h */,
+				BEDCC67A16A1DE5F0023B015 /* PSTGridLayoutRow.m */,
+				BEDCC67B16A1DE5F0023B015 /* PSTGridLayoutSection.h */,
+				BEDCC67C16A1DE5F0023B015 /* PSTGridLayoutSection.m */,
+			);
+			path = PSTCollectionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE94E4B01676AE4C00F0197C /* JamminButter */ = {
+		BE94E4B01676AE4C00F0197C /* HoboNinja */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE94E4D51676AE4C00F0197C /* Build configuration list for PBXNativeTarget "JamminButter" */;
+			buildConfigurationList = BE94E4D51676AE4C00F0197C /* Build configuration list for PBXNativeTarget "HoboNinja" */;
 			buildPhases = (
 				BE94E4AD1676AE4C00F0197C /* Sources */,
 				BE94E4AE1676AE4C00F0197C /* Frameworks */,
@@ -202,9 +304,9 @@
 			);
 			dependencies = (
 			);
-			name = JamminButter;
+			name = HoboNinja;
 			productName = JamminButter;
-			productReference = BE94E4B11676AE4C00F0197C /* JamminButter.app */;
+			productReference = BE94E4B11676AE4C00F0197C /* HoboNinja.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +318,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Will Chilcutt";
 			};
-			buildConfigurationList = BE94E4AB1676AE4C00F0197C /* Build configuration list for PBXProject "JamminButter" */;
+			buildConfigurationList = BE94E4AB1676AE4C00F0197C /* Build configuration list for PBXProject "HoboNinja" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,7 +330,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE94E4B01676AE4C00F0197C /* JamminButter */,
+				BE94E4B01676AE4C00F0197C /* HoboNinja */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +345,8 @@
 				BE94E4CA1676AE4C00F0197C /* Default@2x.png in Resources */,
 				BE94E4CC1676AE4C00F0197C /* Default-568h@2x.png in Resources */,
 				BE94E4CF1676AE4C00F0197C /* MainStoryboard.storyboard in Resources */,
+				BE06F0E416912FDB00384319 /* bnicon copy.png in Resources */,
+				BE06F0E616912FE200384319 /* bnicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDCC68A16A1DF600023B015 /* DejalActivityView.m in Sources */,
 				BE94E4C21676AE4C00F0197C /* main.m in Sources */,
 				BE94E4C61676AE4C00F0197C /* AppDelegate.m in Sources */,
 				BE94E4DA1676AE8600F0197C /* ProductListViewController.m in Sources */,
@@ -270,6 +375,18 @@
 				BE96F7531683F34B0080C42A /* UIImageView+AFNetworking.m in Sources */,
 				BE96F7571683F3B00080C42A /* Constants.m in Sources */,
 				BE0CFA111687614B003A9A42 /* ProductListFlowLayout.m in Sources */,
+				BEDCC67D16A1DE5F0023B015 /* PSTCollectionView.m in Sources */,
+				BEDCC67E16A1DE5F0023B015 /* PSTCollectionViewCell.m in Sources */,
+				BEDCC67F16A1DE5F0023B015 /* PSTCollectionViewController.m in Sources */,
+				BEDCC68016A1DE5F0023B015 /* PSTCollectionViewData.m in Sources */,
+				BEDCC68116A1DE5F0023B015 /* PSTCollectionViewFlowLayout.m in Sources */,
+				BEDCC68216A1DE5F0023B015 /* PSTCollectionViewItemKey.m in Sources */,
+				BEDCC68316A1DE5F0023B015 /* PSTCollectionViewLayout.m in Sources */,
+				BEDCC68416A1DE5F0023B015 /* PSTCollectionViewUpdateItem.m in Sources */,
+				BEDCC68516A1DE5F0023B015 /* PSTGridLayoutInfo.m in Sources */,
+				BEDCC68616A1DE5F0023B015 /* PSTGridLayoutItem.m in Sources */,
+				BEDCC68716A1DE5F0023B015 /* PSTGridLayoutRow.m in Sources */,
+				BEDCC68816A1DE5F0023B015 /* PSTGridLayoutSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +466,10 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JamminButter/JamminButter-Prefix.pch";
-				INFOPLIST_FILE = "JamminButter/JamminButter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "JamminButter/HoboNinja-Prefix.pch";
+				INFOPLIST_FILE = "JamminButter/HoboNinja-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = HoboNinja;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -363,11 +481,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: John Chilcutt";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: John Chilcutt";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JamminButter/JamminButter-Prefix.pch";
-				INFOPLIST_FILE = "JamminButter/JamminButter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "35204A02-2E88-4E91-AB12-B395E2F96199";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "35204A02-2E88-4E91-AB12-B395E2F96199";
+				GCC_PREFIX_HEADER = "JamminButter/HoboNinja-Prefix.pch";
+				INFOPLIST_FILE = "JamminButter/HoboNinja-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = HoboNinja;
+				PROVISIONING_PROFILE = "17B721BB-E3A0-4BAC-AC1D-26AFF05405CF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "17B721BB-E3A0-4BAC-AC1D-26AFF05405CF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -375,7 +494,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE94E4AB1676AE4C00F0197C /* Build configuration list for PBXProject "JamminButter" */ = {
+		BE94E4AB1676AE4C00F0197C /* Build configuration list for PBXProject "HoboNinja" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE94E4D31676AE4C00F0197C /* Debug */,
@@ -384,7 +503,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE94E4D51676AE4C00F0197C /* Build configuration list for PBXNativeTarget "JamminButter" */ = {
+		BE94E4D51676AE4C00F0197C /* Build configuration list for PBXNativeTarget "HoboNinja" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE94E4D61676AE4C00F0197C /* Debug */,

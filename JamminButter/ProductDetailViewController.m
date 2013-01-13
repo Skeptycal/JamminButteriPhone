@@ -27,13 +27,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [DejalBezelActivityView activityViewForView:self.view withLabel:@"Loading.."];
+    
+    [self.view setBackgroundColor:[UIColor scrollViewTexturedBackgroundColor]];
 
     [self.productNameLabel setText:[NSString stringWithFormat:@"%@",[self.selectedProductDictionary objectForKey:@"name"]]];
     
     [self.productPriceLabel setText:[NSString stringWithFormat:@"%@",[self.selectedProductDictionary objectForKey:@"price"]]];
+    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",[self.selectedProductDictionary objectForKey:@"image"]]]];
     
-    [self.productImageView setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",[self.selectedProductDictionary objectForKey:@"image"]]]];
+    [self.productImageView setImageWithURLRequest:request placeholderImage:nil success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image)
+    {
+        [DejalBezelActivityView removeViewAnimated:YES];
+        
+    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
+        
+    }];
+    
+    [self.productDescriptionTextView setText:[NSString stringWithFormat:@"%@",[self.selectedProductDictionary objectForKey:@"description"]]];
+    
 }
+
 - (IBAction)addToCart:(id)sender
 {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",[self.selectedProductDictionary objectForKey:@"add_to_cart"]]]];

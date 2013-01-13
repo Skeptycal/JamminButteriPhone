@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PSTCollectionView.h"
 
-@interface ProductListViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface ProductListViewController : UIViewController <PSUICollectionViewDataSource, PSUICollectionViewDelegate, UISearchBarDelegate>
 {
     NSMutableArray *productArray;
+    NSMutableArray *productSearchResultsArray;
     int selectedRow;
 }
-@property (weak, nonatomic) IBOutlet UICollectionView *productCollectionView;
+@property (weak, nonatomic) IBOutlet PSUICollectionView *productCollectionView;
+@property (weak, nonatomic) IBOutlet UISearchBar *productSearchBar;
 
 @end

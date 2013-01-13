@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PSTCollectionView.h"
 
-@interface ProductCollectionViewCell : UICollectionViewCell
+@interface ProductCollectionViewCell : PSUICollectionViewCell
 
 @property (nonatomic, retain) IBOutlet UILabel *productNameLabel, *productPriceLabel;
 @property (nonatomic, retain) IBOutlet UIImageView *productImageView;
